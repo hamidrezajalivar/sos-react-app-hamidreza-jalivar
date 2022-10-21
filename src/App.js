@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Blog from './pages/Blog';
 import Home from './pages/Home';
 import MainLayout from './layout/MainLayout';
-import NotFound from './components/NotFound'
+import NotFound from './pages/NotFound'
 import SingleArticle from './components/SingleArticle';
 import TodoList from './components/TodoList';
 

@@ -8,15 +8,18 @@ body {
 @font-face {
     font-family: IRANSans;
     src: url("../public/fonts/IRANSansXV.woff2") format('woff2')
-    }
-    body, * {
-        font-family: IRANSans !important;
-    }
-.moreBtn{
-    color:#1158A7;
+}
+
+body, * {
+    font-family: IRANSans !important;
+}
+
+.moreBtn {
+    color: #1158A7;
     font-weight: bold;
     font-size: 16px;
 }
+
 .bg-white {
     background-color: white !important;
 }
@@ -28,10 +31,12 @@ body {
 .button-navbar {
     background-color: #1158A7 !important;
 }
-.content{
-    margin-Top:30px;
-    max-width:95% !important
+
+.content {
+    margin-Top: 30px;
+    max-width: 95% !important
 }
+
 .logo-sm {
     width: 90% !important;
 }
@@ -42,14 +47,17 @@ a {
 
 .navbar {
     color: #1158A7 !important;
-   
+
 }
-.navbar .css-19r6kue-MuiContainer-root{ 
-    max-width:95%;
+
+.navbar .css-19r6kue-MuiContainer-root {
+    max-width: 95%;
 }
-.navbar .css-2uchni{
+
+.navbar .css-2uchni {
     margin: 10px;
 }
+
 .navbar .MuiButtonBase-root {
     padding: 8px 10px !important;
     margin: 0px !important;
@@ -63,32 +71,47 @@ a {
     align-items: center;
     padding: 0px 16px;
 }
-.articleItem>div{
+
+.articleItem>div {
     transition: .2s ease-in-out;
 }
 
-.articleItem>div:hover{
-transform: scale(1.02);
-transition: .2s ease-in-out;
+.articleItem>div:hover {
+    transform: scale(1.02);
+    transition: .2s ease-in-out;
+}
+.moreBlog {
+display: none;
 }
 @media screen and (max-width: 900px) {
     .navbar .css-1x4mbhv {
         display: none !important;
     }
-
+.moreBtn{display: none;}
     .navbar .MuiButtonBase-root {
         padding: 10px 15px !important;
         font-size: 10px !important;
     }
-.navbar .css-19r6kue-MuiContainer-root{
-    padding: 5px !important;
-}
-.navbar .css-1lfs2tq-MuiTypography-root{
-    width: 35% !important;
-}
-.navbar .css-1lvtzne{
-    width: 0px !important;
-}
+
+    .navbar .css-19r6kue-MuiContainer-root {
+        padding: 5px !important;
+    }
+
+    .navbar .css-1lfs2tq-MuiTypography-root {
+        width: 35% !important;
+    }
+
+    .navbar .css-1lvtzne {
+        width: 0px !important;
+    }
+
+    .moreBlog {
+        justify-content: center;
+        margin-top: 8px;
+        display: flex;
+
+    }
+
     .grid-articles .MuiGrid-root {
         margin: 0px !important;
         padding: 0px !important;
@@ -97,7 +120,8 @@ transition: .2s ease-in-out;
     .content {
         padding: 0px ! important;
     }
-    .content .css-1h6381t-MuiPaper-root-MuiCard-root{
+
+    .content .css-1h6381t-MuiPaper-root-MuiCard-root {
         padding: 9px !important;
     }
 }

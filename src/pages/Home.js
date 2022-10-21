@@ -1,12 +1,16 @@
 import Articles from "../components/Articles";
 import ButtonEffect from './../components/ButtonEffect';
 import  Container  from '@mui/material/Container';
+import {Helmet} from "react-helmet";
 import { Link } from 'react-router-dom';
 import  Typography  from '@mui/material/Box';
 
 const Home = () => {
     return (
         <>
+        <Helmet>
+          <title>صفحه اصلی</title>
+        </Helmet>
   <Container className="content">
           <div className="headContent">
           
@@ -18,7 +22,9 @@ const Home = () => {
           </div>
 
            <Articles/>
-           <ButtonEffect>بیشتر</ButtonEffect>
+           <div className="moreBlog">
+           <ButtonEffect link="/blogs">بیشتر</ButtonEffect>
+           </div>
            </Container>
          </>
     );

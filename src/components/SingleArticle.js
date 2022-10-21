@@ -1,3 +1,4 @@
+import {Helmet} from "react-helmet";
 import Rateing from './Rateing';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import { blogList } from './../data';
@@ -11,6 +12,9 @@ const SingleArticle = () => {
     });
     return (
         <>
+                  <Helmet>
+          <title>{blog.title}</title>
+        </Helmet>
             <div className={styles.singlePost}>
                 <img src={`/${blog.image}`} alt={blog.title} />
                 <div className={styles.cover}></div>

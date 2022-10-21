@@ -1,5 +1,6 @@
 import CSSModules from 'react-css-modules';
 import { Fragment } from "react";
+import {Helmet} from "react-helmet";
 import { Link } from 'react-router-dom';
 import styles from '../styles/notFound.modules.css';
 
@@ -7,6 +8,9 @@ const NotFound = () => {
 
     return (
         <Fragment>
+                  <Helmet>
+          <title>خطای 404</title>
+        </Helmet>
             <Link to="/">
             <div className='bodyNotFound'>
                 <div className="container">
