@@ -12,7 +12,11 @@ body {
     body, * {
         font-family: IRANSans !important;
     }
-
+.moreBtn{
+    color:#1158A7;
+    font-weight: bold;
+    font-size: 16px;
+}
 .bg-white {
     background-color: white !important;
 }
@@ -24,7 +28,10 @@ body {
 .button-navbar {
     background-color: #1158A7 !important;
 }
-
+.content{
+    margin-Top:30px;
+    max-width:95% !important
+}
 .logo-sm {
     width: 90% !important;
 }
@@ -34,9 +41,15 @@ a {
 }
 
 .navbar {
-    color: #1158A7 !important
+    color: #1158A7 !important;
+   
 }
-
+.navbar .css-19r6kue-MuiContainer-root{ 
+    max-width:95%;
+}
+.navbar .css-2uchni{
+    margin: 10px;
+}
 .navbar .MuiButtonBase-root {
     padding: 8px 10px !important;
     margin: 0px !important;
@@ -48,7 +61,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 0px 16px;
 }
 .articleItem>div{
     transition: .2s ease-in-out;
@@ -79,5 +92,12 @@ transition: .2s ease-in-out;
     .grid-articles .MuiGrid-root {
         margin: 0px !important;
         padding: 0px !important;
+    }
+
+    .content {
+        padding: 0px ! important;
+    }
+    .content .css-1h6381t-MuiPaper-root-MuiCard-root{
+        padding: 9px !important;
     }
 }

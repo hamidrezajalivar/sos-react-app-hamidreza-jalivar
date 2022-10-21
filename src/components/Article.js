@@ -43,7 +43,7 @@ const Article = ({ post, onClick }) => {
 
                     }}>
 
-                        <ButtonEffect />
+                        <ButtonEffect>ادامه</ButtonEffect>
                     </CardActions>
                 </Card>
             </Link>
