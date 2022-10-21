@@ -1,0 +1,83 @@
+body {
+    direction: rtl !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow-x: hidden !important;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url("../public/fonts/IRANSansXV.woff2") format('woff2')
+    }
+    body, * {
+        font-family: IRANSans !important;
+    }
+
+.bg-white {
+    background-color: white !important;
+}
+
+.navListItem {
+    color: black !important;
+}
+
+.button-navbar {
+    background-color: #1158A7 !important;
+}
+
+.logo-sm {
+    width: 90% !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    color: #1158A7 !important
+}
+
+.navbar .MuiButtonBase-root {
+    padding: 8px 10px !important;
+    margin: 0px !important;
+    border-radius: 10px !important;
+
+}
+
+.headContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.articleItem>div{
+    transition: .2s ease-in-out;
+}
+
+.articleItem>div:hover{
+transform: scale(1.02);
+transition: .2s ease-in-out;
+}
+@media screen and (max-width: 900px) {
+    .navbar .css-1x4mbhv {
+        display: none !important;
+    }
+
+    .navbar .MuiButtonBase-root {
+        padding: 10px 15px !important;
+        font-size: 10px !important;
+    }
+.navbar .css-19r6kue-MuiContainer-root{
+    padding: 5px !important;
+}
+.navbar .css-1lfs2tq-MuiTypography-root{
+    width: 35% !important;
+}
+.navbar .css-1lvtzne{
+    width: 0px !important;
+}
+    .grid-articles .MuiGrid-root {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}

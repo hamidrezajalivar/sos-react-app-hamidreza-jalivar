@@ -1,0 +1,29 @@
+.LazyLoad {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+.filter {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter .ant-col {
+  width: 30%;
+}
+
+.imgSinglePage {
+  height: "300px"
+}
+
+@media screen and (max-width: 900px) {
+  .filter .ant-col {
+    width: 100%;
+  }
+}
