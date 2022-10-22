@@ -2,7 +2,7 @@ import "../styles/todoList.css"
 
 import React, { useState } from 'react';
 
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Todo from './Todo';
 import TodoForm from './TodoForm';
 
@@ -46,18 +46,18 @@ function TodoList() {
 
   return (
     <>
-              <Helmet>
-          <title>todo list</title>
-        </Helmet>
-    <div className="todoPage">
-      <h1><b>What's the Plan for Today?</b></h1>
-      <TodoForm onSubmit={addTodo} />
-      <Todo
-        todos={todos}
-        completeTodo={completeTodo}
-        removeTodo={removeTodo}
-        updateTodo={updateTodo}
-      />
+      <Helmet>
+        <title>todo list</title>
+      </Helmet>
+      <div className="todoPage">
+        <h1><b>What's the Plan for Today?</b></h1>
+        <TodoForm onSubmit={addTodo} />
+        <Todo
+          todos={todos}
+          completeTodo={completeTodo}
+          removeTodo={removeTodo}
+          updateTodo={updateTodo}
+        />
       </div>
     </>
   );

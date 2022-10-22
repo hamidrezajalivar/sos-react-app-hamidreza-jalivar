@@ -4,14 +4,14 @@ const SelectFilter = (props) => {
 
     return (
         <>
-    
-            <Select
-        value={props.value}
-        onChange={props.changeHandler}
-        options={props.options}
-        placeholder={props.placeholder}
 
-      />
+            <Select
+                value={props.value}
+                onChange={props.changeHandler}
+                options={props.options}
+                placeholder={props.placeholder}
+
+            />
 
         </>
     );

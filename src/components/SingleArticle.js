@@ -1,4 +1,4 @@
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Rateing from './Rateing';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import { blogList } from './../data';
@@ -12,15 +12,15 @@ const SingleArticle = () => {
     });
     return (
         <>
-                  <Helmet>
-          <title>{blog.title}</title>
-        </Helmet>
+            <Helmet>
+                <title>{blog.title}</title>
+            </Helmet>
             <div className={styles.singlePost}>
                 <img src={`/${blog.image}`} alt={blog.title} />
                 <div className={styles.cover}></div>
                 <h1 className={styles.title}>{blog.title}</h1>
                 <span className={styles.score}><Rateing score={blog.score} /></span>
-               
+
             </div>
             <h1 style={{ textAlign: "center", marginTop: "70px" }}>{blog.title}</h1>
             <div className={styles.description}>
@@ -32,7 +32,7 @@ const SingleArticle = () => {
                     {blog.category}
                 </div>
                 <div className={styles.views}>
-                    <span><RemoveRedEyeIcon/> تعداد بازدید:</span>
+                    <span><RemoveRedEyeIcon /> تعداد بازدید:</span>
                     {blog.views}
                 </div>
             </div>
